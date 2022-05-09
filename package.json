@@ -4,13 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    
-    "dev": "react-scripts start",
-   "start": "serve -s build",
-   "build": "node-scripts build",
-    "test": "node-scripts test --env=jsdom",
-    "eject": "node-scripts eject",
-   "heroku-postbuild": "npm run build"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  
   },
   "author": "",
   "license": "ISC",

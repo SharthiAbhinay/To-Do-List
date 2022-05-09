@@ -135,6 +135,6 @@ if (port == null || port == "") {
   port = 3000;
 }
 
-app.listen(port, function(err) {
+app.listen(port.enev.port|| 3000, function(err) {
   console.log("Server started on port 3000");
 });
