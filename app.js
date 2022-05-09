@@ -1,13 +1,11 @@
 //jshint esversion:6
-const path = require("path");
-const favicon = require("serve-favicon");
+
 const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const _ = require("lodash");
 
 const app = express();
-app.use(favicon(path.join(dirname, "build", "favicon.ico")));
 app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({extended: true}));
